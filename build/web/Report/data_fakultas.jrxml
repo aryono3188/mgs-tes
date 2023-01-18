@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="58cea628-e0b1-4f31-9e8c-f9a592730ead">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="39"/>
+	<queryString>
+		<![CDATA[SELECT
+     fakultas.`kode_fakultas` AS fakultas_kode_fakultas,
+     fakultas.`nama_fakultas` AS fakultas_nama_fakultas
+FROM
+     `fakultas` fakultas]]>
+	</queryString>
+	<field name="fakultas_kode_fakultas" class="java.lang.String"/>
+	<field name="fakultas_nama_fakultas" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="89" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="11" width="802" height="72" uuid="50bc94f1-dc63-4883-9eea-1d708b294a2f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="332" y="56" width="100" height="20" uuid="675a40a4-c466-4bf9-b24a-50f707d0a8d0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Berbasis Web]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="33" width="189" height="20" uuid="90ac3a0e-45c7-411b-8863-240465559d2a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[Kampus]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="10" width="189" height="20" uuid="690067b0-88cc-4796-bc8b-32250e890e91"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[Sistem Informasi Akademik]]></text>
+			</staticText>
+			<image>
+				<reportElement x="684" y="14" width="118" height="65" uuid="eb5543ff-591b-4560-b57c-7ef5349f373c"/>
+				<imageExpression><![CDATA["D:\\Latihan Java\\mgs_aryono\\web\\image\\topi_wisuda2.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement x="-346" y="10" width="100" height="20" uuid="fdb5ed53-1f0f-4ba5-9d66-0b3aa38c7b34"/>
+				<box>
+					<pen lineColor="#CC0000"/>
+					<topPen lineColor="#CC0000"/>
+					<leftPen lineColor="#CC0000"/>
+					<bottomPen lineColor="#CC0000"/>
+					<rightPen lineColor="#CC0000"/>
+				</box>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Data Guru]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-346" y="10" width="100" height="20" uuid="d7378ae8-a406-4bcf-af0d-fd08c510a3fa"/>
+				<box>
+					<pen lineColor="#CC0000"/>
+					<topPen lineColor="#CC0000"/>
+					<leftPen lineColor="#CC0000"/>
+					<bottomPen lineColor="#CC0000"/>
+					<rightPen lineColor="#CC0000"/>
+				</box>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Data Guru]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-346" y="3" width="100" height="20" uuid="762025ac-fbe7-4185-be75-d28081d3a4b4"/>
+				<box>
+					<pen lineColor="#CC0000"/>
+					<topPen lineColor="#CC0000"/>
+					<leftPen lineColor="#CC0000"/>
+					<bottomPen lineColor="#CC0000"/>
+					<rightPen lineColor="#CC0000"/>
+				</box>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Data Guru]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="-1" y="3" width="802" height="31" uuid="77c7762c-0332-41fe-8cb0-8f0876d7e94d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="13" y="10" width="113" height="20" uuid="bc6823a5-d269-40e9-8f7f-ed9ccc610283"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[Data Fakultas]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement x="402" y="0" width="399" height="25" uuid="49832399-3681-463a-a6fe-582e5c7c86b0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="0" width="402" height="25" uuid="595c0af5-6d87-4dfc-8129-cfde2012ca94"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="13" y="4" width="251" height="20" uuid="194fba61-4da0-4f38-a486-213542cac957"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Kode Fakultas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="413" y="4" width="260" height="20" uuid="749410fe-bdcd-4cae-8537-e7708c40a7af"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Nama Fakultas]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<rectangle>
+				<reportElement x="402" y="3" width="399" height="25" uuid="b071f2ab-e2ad-4241-86df-f64c128431cf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="3" width="402" height="24" uuid="81827bf2-ddff-45cf-a0d1-5cef4a65cfbc"/>
+			</rectangle>
+			<textField>
+				<reportElement x="13" y="7" width="251" height="20" uuid="b7352b01-3a08-421d-b5ab-20fe2d0b2e60"/>
+				<textFieldExpression><![CDATA[$F{fakultas_kode_fakultas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="413" y="7" width="259" height="20" uuid="baf7d021-7e95-43a6-9363-4799f4b3d3c4"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fakultas_nama_fakultas}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="5" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-1" y="5" width="802" height="25" uuid="3695046a-8837-49bd-bad0-47bc6b528ea1"/>
+			</rectangle>
+			<textField>
+				<reportElement x="664" y="10" width="80" height="20" uuid="d45d9e84-fd4b-47ea-8e8c-2df35a44f4d1"/>
+				<textElement textAlignment="Right">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="744" y="10" width="40" height="20" uuid="5420b08f-addd-444d-aed7-8592b72bc2ae"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="555" splitType="Stretch"/>
+	</summary>
+</jasperReport>
