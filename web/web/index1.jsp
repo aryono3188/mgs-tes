@@ -62,16 +62,16 @@
                                 </tr>  
                                     <ul>
                                         <tr>
-                                             <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=tampil_mahasiswa">Mahasiswa</a></li></h3></td>
+                                             <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=tampil_mahasiswa">Mahasiswa</a></li></h3></td>
                                         </tr>
                                         <tr>
-                                            <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=tampil_fakultas">Fakultas</a></li></h3></td>
+                                            <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=tampil_fakultas">Fakultas</a></li></h3></td>
                                         </tr>
                                         <tr>
-                                            <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=tampil_jurusan">Jurusan</a></li></h3></td>                   
+                                            <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=tampil_jurusan">Jurusan</a></li></h3></td>                   
                                         </tr>
                                         <tr>
-                                            <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=tampil_mata_kuliah">Mata Kuliah</a></li></h3></td>                   
+                                            <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=tampil_mata_kuliah">Mata Kuliah</a></li></h3></td>                   
                                         </tr>    
                                     </ul>
                             </table>                          
@@ -96,16 +96,16 @@
                                 </tr>  
                                     <ul>
                                         <tr>
-                                             <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=data_mahasiswa">Cetak Mahasiswa</a></li></h3></td>
+                                             <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=data_mahasiswa">Cetak Mahasiswa</a></li></h3></td>
                                         </tr>
                                         <tr>
-                                            <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=data_fakultas">Cetak Fakultas</a></li></h3></td>
+                                            <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=data_fakultas">Cetak Fakultas</a></li></h3></td>
                                         </tr>
                                         <tr>
-                                            <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=data_jurusan">Cetak Jurusan</a></li></h3></td>                   
+                                            <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=data_jurusan">Cetak Jurusan</a></li></h3></td>                   
                                         </tr>
                                         <tr>
-                                            <td bgcolor="pink"><h3><li><a href="admin.jsp?halaman=data_mata_kuliah">Cetak Mata Kuliah</a></li></h3></td>                   
+                                            <td bgcolor="pink"><h3><li><a href="index1.jsp?halaman=data_mata_kuliah">Cetak Mata Kuliah</a></li></h3></td>                   
                                         </tr> 
                                     </ul>
                             </table>                          
